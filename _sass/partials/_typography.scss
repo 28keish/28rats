@@ -1,0 +1,186 @@
+/*------------------------------------*\
+    CONTENTS - TYPOGRAPHY
+\*------------------------------------*/
+
+/*
+ 
+ font @import
+ general
+ font import
+ main content
+    
+*/
+
+// $GENERAL
+
+html {
+  color: $text;
+  font-weight: $book;
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+  font-family: $font;
+}
+
+body {
+  color: $text;
+  @include font-size(17);
+  line-height: 1.286em;
+}
+
+*:focus {
+  outline: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  @include transition(color);
+  color: $green;
+  &:hover,
+  &:active,
+  &:focus {
+    color: lighten($green,5);
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+h1,
+.h1 {
+  @include font-size(43);
+  font-weight: $book;
+  font-family: $font;
+  line-height: 1.25em;
+  margin: 0;
+  color: $green;
+}
+
+h2,
+.h2 {
+  @include font-size(24);
+  font-family: $font-alt;
+  font-weight: $book;
+  line-height: 1.23em;
+}
+
+h3,
+.h3 {
+  @include font-size(24);
+  font-family: $font;
+  font-weight: $bold;
+  line-height: 1.2em;
+  color: $green;
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  @include font-size(21);
+  font-weight: $book;
+  line-height: 1.2em;
+}
+
+h5,
+.h5,
+h6,
+.h6 {
+  @include font-size(18);
+}
+
+p,
+.p,
+li {
+  @include font-size(17);
+  font-weight: $book;
+  line-height: 1.5em;
+  color: $text;
+}
+
+.large {
+  @include font-size(24);
+  font-weight: $book;
+  line-height: 1.2em;
+  color: $title;
+}
+
+small,
+.small {
+  @include font-size(12);
+  font-weight: $book;
+  line-height: 1.2em;
+  color: $text;
+}
+
+@include media("<=iphone") {
+  blockquote {
+    padding: 1.5em 1em;
+  }
+}
+
+.active, .active-trail {
+  font-weight: $book;
+}
+
+@include media("<=tablet") {
+
+  h1,
+  .h1 {
+    @include font-size(35);
+  }
+
+  h2,
+  .h2 {
+    @include font-size(28);
+  }
+  
+  h3,
+  .h3 {
+    @include font-size(22);
+  }
+
+}
+
+@include media("<=phone") {
+
+  h1,
+  .h1 {
+    line-height: 1.15em;
+  }
+
+  h2,
+  .h2 {
+    line-height: 1.12em;
+  }
+
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    line-height: 1.11em;
+  }
+}
+
+@include media("<=iphone") {
+  table,
+  tbody,
+  thead,
+  tr,
+  th,
+  td {
+    display: block;
+  }
+  thead {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Vendor */
+@import "vendor/_flexbox.scss";
+@import "vendor/_normalize.scss";
+@import "vendor/_include-media.scss";
+
+/* Partials */
+@import "partials/_variables.scss";
+@import "partials/_mixins.scss";
+@import "partials/_typography.scss";
+@import "partials/_main.scss";

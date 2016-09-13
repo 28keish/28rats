@@ -1,0 +1,27 @@
+/*-- Mixins --*/
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 10) + rem;
+}
+
+@mixin line-height($sizeValue: 1.6) {
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / 10) + rem;
+}
+
+@mixin svg-bg($imageTitle) {
+  background-image: url(#{$imageTitle}.png);
+  background-image: -webkit-linear-gradient(transparent, transparent), url(#{$imageTitle}.svg);
+  background-image: linear-gradient(transparent, transparent), url(#{$imageTitle}.svg);
+}
+
+@mixin container {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 0 1em;
+}
+
+@mixin transition($element) {
+  transition: $element 0.25s ease;
+}

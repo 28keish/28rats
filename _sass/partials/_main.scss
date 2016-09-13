@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $bg;
+}
+
+body > .wrapper {
+  @include flexbox;
+  @include flex-direction(column);
+  height: 100vh;
+}
+
+.container {
+  @include container;
+}
+
+header {
+  background: $green;
+  width: 100%;
+  padding: 2em 1em;
+  h1,
+  a {
+    color: $bg;
+  }
+}
+
+.page {
+  @include container;
+  @include flex(1 0 auto);
+  padding: 4em 1em;
+  width: 100%;
+}
+
+footer {
+  background: darken($bg,1);
+  padding: 2em 1em;
+}

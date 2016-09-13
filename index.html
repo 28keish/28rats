@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+nav: true
+---
+
+<div class="home">
+
+<h2>Rats:</h2>
+
+	<ul>
+  
+	  {% for rat in site.rats %}
+	  	  
+	  	<li>{{ rat.title }} - {{ rat.gender }}</li>
+	  	
+	  
+	  {% endfor %}
+	  
+	</ul>
+
+<h2>Rats (Bucks):</h2>
+
+{{ site.rats | where:"gender","buck" }}
+
+<h2>Rats (Does):</h2>
+
+{{ site.rats | where:"gender","doe" }}
+
+</div>
