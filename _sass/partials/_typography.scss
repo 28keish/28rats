@@ -63,7 +63,7 @@ h2,
 .h2 {
   @include font-size(24);
   font-family: $font-alt;
-  font-weight: $book;
+  font-weight: $bold;
   line-height: 1.23em;
 }
 
@@ -71,9 +71,9 @@ h3,
 .h3 {
   @include font-size(24);
   font-family: $font;
-  font-weight: $bold;
+  font-weight: $book;
   line-height: 1.2em;
-  color: $green;
+  color: $book;
 }
 
 h4,

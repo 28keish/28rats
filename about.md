@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
+title: About
 nav: true
 ---
 
-This is the home page.
+Rats are cool.
