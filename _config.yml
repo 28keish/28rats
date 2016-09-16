@@ -19,13 +19,12 @@ defaults:
     type: rats
   values:
     layout: default
-    author: Ethan
     Image: 
     Gender: 
     DOB: 
-    RIP: 
     Sire: 
     Dam: 
+    RIP: 
     Description: 
 email: 28keish@gmail.com
 description: 'Write an awesome description for your new site here. You can edit this
