@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg;
+}
+
+body > .wrapper {
+  @include flexbox;
+  @include flex-direction(column);
+  min-height: 100vh;
+}
+
+hr {
+  background: darken($bg,1);
+  border: none;
+  margin: 2em 0;
+  height: 1px;
+}
+
+.container {
+  @include container;
+}
+
+header {
+  background: $green;
+  width: 100%;
+  padding: 2em 1em;
+  h1,
+  a {
+    color: $bg;
+  }
+}
+
+.page {
+  @include container;
+  @include flex(1 0 auto);
+  padding: 2em 1em;
+  width: 100%;
+}
+
+footer {
+  background: darken($bg,1);
+  padding: 2em 1em;
+}
+
+.rat {
+  @include align-items(flex-start);
+  background: darken($bg,1);
+  margin: 1em 0;
+  padding: 1em;
+  img {
+    margin-right: 1em;
+  }
+  h3 {
+    margin-top: 0;
+  }
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@include media(">iphone") {
+  .rat {
+    @include flexbox;
+    img {
+      max-width: 200px;
+    }
+  }
+}
+
+@include media("<=iphone") {
+  .rat {
+    img {
+      margin-bottom: 1em;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+---
+---
+
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Landing page test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet"> 
+        <link rel="stylesheet" href="/css/style.css">
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class="wrapper">
+        
+	    	<header role="header" id="header">
+	    		<div class="container">
+	    			<h1>28rats</h1>
+	    				    			
+	    			<ul>
+					  {% for page in site.pages %}
+					  	{% if page.nav == true %}
+						    <li>
+						      <a href="{{ page.url }}">{{ page.title }}</a>
+						    </li>
+					    {% endif %}
+					  {% endfor %}
+					</ul>
+	    		</div>
+	    	</header>
+	    	
+	    	<div class="page">
+	        	<article id="main">{{ content }}</article>
+	    	</div>
+	    	
+	    	<footer role="footer" id="footer">
+	    		<div class="container">
+	    			&copy; 28rats.com 2016 | Blah 
+	    		</div>
+	    	</footer>
+    	
+    	</div>
+        
+    </body>
+</html>
