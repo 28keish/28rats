@@ -8,7 +8,7 @@ The 28th Rat is a small [QRF registered rattery](http://qrf.org.au) based in Bri
 
 I'm a member of & volunteer for [Queensland Rodent Fanciers (QRF)](http://qrf.org.au/) -- a club where you can enter rats & mice in shows consisting of both varieties and "pet" classes. They advocate responsible pet ownership & breeding and generally are a really great way to meet other rodent owners and breeders. If anyone is curious about showing & has questions please feel free to [send me a facebook message](http://www.facebook.com/28rats) and I'll answer when I can.
 
-##Interested in buying a rat?
+Interested in buying a rat?
 
 I generally only have about 1-2 litters per year so it is a rare occasion that there are babies available, but check the litters page to see what might be upcoming. If there are bubs available I'll generally post to advertise on the [QRF facebook page](http://qrf.org.au) first, followed by the 28rats page. Due to high demand I don't take reservations.
 
