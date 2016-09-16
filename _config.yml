@@ -19,13 +19,12 @@ defaults:
     type: rats
   values:
     layout: default
-    author: Ethan
     Image: 
     Gender: 
     DOB: 
-    RIP: 
     Sire: 
     Dam: 
+    RIP: 
     Description: 
 email: 28keish@gmail.com
 description: 'Write an awesome description for your new site here. You can edit this
@@ -39,18 +38,3 @@ twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
 theme: minima
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "rats"
-    values:
-      layout: "default"
-      Image:
-      Gender:
-      DOB:
-      Sire:
-      Dam:
-      RIP:
-      Description:
