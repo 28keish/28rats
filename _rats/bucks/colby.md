@@ -1,6 +1,6 @@
 ---
 title: 28 Colby
-image: parmesan.jpg
+image: "/uploads/wet-colby.jpg"
 gender: buck
 sire: Pet Ch MPJS Parmesan
 dam: MPJS Edam
