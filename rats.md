@@ -91,7 +91,7 @@ layout: default
 
 
 {% if rat.Image %}
-<img src="{{ rat.image }}" />
+<img src="{{ rat.Image }}" />
 {% endif %}
 
 <div>
