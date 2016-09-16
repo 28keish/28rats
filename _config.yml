@@ -13,14 +13,28 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: rats
+  values:
+    layout: default
+    author: Ethan
+    Image: 
+    Gender: 
+    DOB: 
+    RIP: 
+    Sire: 
+    Dam: 
+    Description: 
 email: 28keish@gmail.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 
 '
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown

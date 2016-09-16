@@ -102,8 +102,6 @@ layout: default
 <strong>DOB:</strong> {{ rat.DOB }}
 {% endif %}
 
-<strong>RIP:</strong> {{ rat.RIP }}
-
 {% if rat.Sire %}
 <strong>Sire:</strong> {{ rat.Sire }}<br />
 {% endif %}
@@ -111,6 +109,8 @@ layout: default
 {% if rat.Dam %}
 <strong>Dam:</strong> {{ rat.Dam }}
 {% endif %}
+
+<strong>RIP:</strong> {{ rat.RIP }}<br />
 
 <p>{{ rat.Description }}</p>
 
