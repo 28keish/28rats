@@ -5,5 +5,6 @@ Gender: buck
 Sire: Pet Ch MPJS Parmesan
 Dam: MPJS Edam
 Description: 
+RIP: Died from respiratory/decline @ 1.5 years old
 ---
 
