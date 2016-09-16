@@ -8,7 +8,6 @@ collections:
   rats:
     title: Rats
     output: false
-    gender:
     - 
   uploads:
     title: Uploads
@@ -25,3 +24,18 @@ twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
 theme: minima
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "rats"
+    values:
+      layout: "default"
+      Image:
+      Gender:
+      DOB:
+      RIP:
+      Sire:
+      Dam:
+      Description:
