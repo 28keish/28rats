@@ -1,7 +1,7 @@
 ---
 title: Ch MPJS Edam
-gender: doe
-description: Edam was the founding doe for all 28rats projects.
-past: true
+Gender: doe
+Description: Edam was the founding doe for all 28rats projects.
+Past: true
 ---
 
