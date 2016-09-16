@@ -6,4 +6,3 @@ Gender: doe
 Image: "/uploads/images.jpg"
 ---
 
-Gouda the rat
