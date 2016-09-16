@@ -1,7 +1,7 @@
 ---
 title: Parmesan
 gender: buck
-image: parmesan.jpg
+image: "/uploads/parmesan.jpg"
 ---
 
 ### Parmesan the rat.
