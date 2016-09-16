@@ -8,6 +8,8 @@ collections:
   rats:
     title: Rats
     output: false
+    gender:
+    - 
   uploads:
     title: Uploads
     output: true
