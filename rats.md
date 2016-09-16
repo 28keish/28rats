@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Rats
 nav: true
+layout: default
 ---
 
 <h2>Bucks</h2>
@@ -13,7 +13,7 @@ nav: true
 
 
 {% if rat.image %}
-<img src="{{site.baseurl}}/images/rats/{{ rat.image }}" />
+<img src="{{ rat.image }}" />
 {% endif %}
 
 <div>
@@ -48,7 +48,7 @@ nav: true
 
 
 {% if rat.image %}
-<img src="{{site.baseurl}}/images/rats/{{ rat.image }}" />
+<img src="{{ rat.image }}" />
 {% endif %}
 
 <div>
