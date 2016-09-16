@@ -1,5 +1,5 @@
 ---
-title: Parmesan
+title: Pet Ch MPJS Parmesan
 gender: buck
 image: "/uploads/parmesan.jpg"
 ---
