@@ -1,10 +1,9 @@
 ---
 title: 28 Colby
-image: "/uploads/555330_472460789481977_1618261138_n.jpg"
-gender: buck
-sire: Pet Ch MPJS Parmesan
-dam: MPJS Edam
-description: Colby was a rat.
+Image: "/uploads/555330_472460789481977_1618261138_n.jpg"
+Gender: buck
+Sire: Pet Ch MPJS Parmesan
+Dam: MPJS Edam
+Description: 
 ---
 
-Colby the rat. Test.
