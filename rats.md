@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Rats
+layout: default
 nav: true
 ---
 
