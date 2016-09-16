@@ -25,3 +25,19 @@ twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
 theme: minima
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "rats"
+    values:
+      layout: "default"
+      author: "Ethan"
+      Image:
+      Gender:
+      DOB:
+      RIP:
+      Sire:
+      Dam:
+      Description:
