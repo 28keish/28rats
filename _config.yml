@@ -33,11 +33,10 @@ defaults:
       type: "rats"
     values:
       layout: "default"
-      author: "Ethan"
       Image:
       Gender:
       DOB:
-      RIP:
       Sire:
       Dam:
+      RIP:
       Description:
