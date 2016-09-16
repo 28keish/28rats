@@ -12,8 +12,8 @@ layout: default
 <div class="rat">
 
 
-{% if rat.image %}
-<img src="{{ rat.image }}" />
+{% if rat.Image %}
+<img src="{{ rat.Image }}" />
 {% endif %}
 
 <div>
@@ -46,13 +46,13 @@ layout: default
 <h2>Does</h2>
 
 {% for rat in site.rats %}
-{% if rat.Gender == "Doe" and rat.RIP == null %}
+{% if rat.Gender == "Doe" %}
 
 <div class="rat">
 
 
-{% if rat.image %}
-<img src="{{ rat.image }}" />
+{% if rat.Image %}
+<img src="{{ rat.Image }}" />
 {% endif %}
 
 <div>
