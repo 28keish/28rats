@@ -102,7 +102,7 @@ layout: default
 <strong>DOB:</strong> {{ rat.DOB }}
 {% endif %}
 
-<strong>RIP:</strong> {{ rat.RIP }}
+<strong>RIP:</strong> {{ rat.RIP }}<br />
 
 {% if rat.Sire %}
 <strong>Sire:</strong> {{ rat.Sire }}<br />
